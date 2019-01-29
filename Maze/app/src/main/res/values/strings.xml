@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Maze</string>
+    <string name="title_activity_game">GAME</string>
+    <string name="player1">Player1</string>
+    <string name="player2">Player2</string>
+    <string name="player3">Player3</string>
+    <string name="player_1">player 1</string>
+    <string name="player_2">player 2</string>
+    <string name="player_3">player 3</string>
+    <string name="appbar_scrolling_view_behavior" />
+    <string name="title_activity_dbh">dbh</string>
+</resources>

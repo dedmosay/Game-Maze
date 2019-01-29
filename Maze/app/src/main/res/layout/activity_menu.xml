@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_open_connection"
+            android:layout_margin="10dp"
+            android:text="open"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_send_connection"
+            android:layout_margin="10dp"
+            android:text="send"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_close_connection"
+            android:layout_margin="10dp"
+            android:text="close"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/Id_records_DB"
+        style="@android:style/Widget.Button.Small"
+        android:layout_width="222dp"
+        android:layout_height="53dp"
+        android:background="#C0CDF1"
+        android:includeFontPadding="false"
+        android:text="ЛУЧШИЕ РЕЗУЛЬТАТЫ"
+        android:textColorLink="@android:color/holo_blue_bright"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.604"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Id_start"
+        style="@android:style/Widget.Button.Small"
+        android:layout_width="223dp"
+        android:layout_height="48dp"
+        android:background="#C0CDF1"
+        android:text="НАЧАТЬ ИГРУ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.451"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/Id_level"
+        style="@android:style/Widget.Button.Small"
+        android:layout_width="227dp"
+        android:layout_height="48dp"
+        android:background="#C0CDF1"
+        android:text="ИЗМЕНИТЬ УРОВЕНЬ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>
