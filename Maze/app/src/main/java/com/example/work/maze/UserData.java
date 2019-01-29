@@ -27,7 +27,7 @@
 //    int recordUser;
 //
 //
-//    //    Menu.Worker workerUser = new Menu.Worker(new LevelUser());
+//    //    Menu.Worker workerUser = new Menu.Worker(new LevelUser()); 
 ////    Menu.Worker workerNormal = new Menu.Worker(new LevelNormal());
 ////    Menu.Worker workerHard = new Menu.Worker(new LevelHard());
 ////
