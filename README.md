@@ -1,5 +1,5 @@
 # Android-Game
- Начало игры при запуске
+ Начало игры при запуске приложения Maze
 
 ## [Menu.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/Menu.java "Menu.java ")
 
@@ -32,8 +32,6 @@
         }
     }
 
-
-Image:
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/2.jpeg)
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/1.jpeg)
 
