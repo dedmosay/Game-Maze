@@ -52,38 +52,11 @@
         setContentView(new GamePanel(this));                                                
     }
 
-Пример запуска GAME
+Пример запуска GAME 
 
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/1.jpeg)
 
-Можно изменить уровень сложности
 
-## [PLAYERS.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/PLAYERS.java "PLAYERS.java")
-
-    Button USER;
-    Button NORMAL;
-    Button HARD;
-
-    private float LevelUser = 5.0f;
-    private float LevelNormal = 10.0f;
-    private float LevelHard = 20.0f;
-
-    final String FILE_LEVEL = "LevelMaze";
-    String levelMaze;
-    BufferedReader reader = null;
-    
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_players);
-
-        USER = (Button) findViewById(R.id.Id_User);
-        NORMAL = (Button) findViewById(R.id.Id_Normal);
-        HARD = (Button) findViewById(R.id.Id_Hard);
-
-Пример запуска PLAYERS
-
-![](https://github.com/ilinoa/Android-Game/blob/master/image/2.jpeg)
 
 Для того чтобы узнать лучшие результаты, данные можно увидеть в классе DBH (данные сохраняются в mySQL)
 В предыдущем варианте данные сохранялись в файлы в класс RECORDS.java
@@ -123,6 +96,39 @@
         }
     }
 
-Пример запуска DBH 
+Пример запуска DBH - ЛУЧШИЕ РЕЗУЛЬТАТЫ
 
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/3.jpeg)
+
+
+
+
+Можно изменить уровень сложности
+
+## [PLAYERS.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/PLAYERS.java "PLAYERS.java")
+
+    Button USER;
+    Button NORMAL;
+    Button HARD;
+
+    private float LevelUser = 5.0f;
+    private float LevelNormal = 10.0f;
+    private float LevelHard = 20.0f;
+
+    final String FILE_LEVEL = "LevelMaze";
+    String levelMaze;
+    BufferedReader reader = null;
+    
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_players);
+
+        USER = (Button) findViewById(R.id.Id_User);
+        NORMAL = (Button) findViewById(R.id.Id_Normal);
+        HARD = (Button) findViewById(R.id.Id_Hard);
+
+Пример запуска PLAYERS - ИЗМЕНИТЬ УРОВЕНЬ
+
+![](https://github.com/ilinoa/Android-Game/blob/master/image/2.jpeg)
+
