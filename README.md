@@ -85,7 +85,7 @@
 
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/2.jpeg)
 
-Можно изменить уровень сложности в класс DBH (данные сохраняются в mySQL)
+Для того чтобы узнать лучшие результаты, данные можно увидеть в классе DBH (данные сохраняются в mySQL)
 В предыдущем варианте данные сохранялись в файлы в класс RECORDS.java
 ## [DBH.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/DBH.java "DBH.java")
 
