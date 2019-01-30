@@ -31,11 +31,13 @@
                 break;
         }
     }
-Example menu
+    
+# Example menu
+
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/4.jpeg)
 
-
 Если выбрать кнопку пункт меню НАЧАТЬ ИГРУ - запуститься класс GAME
+
 ## [GAME.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/GAME.java "GAME.java")
 
 public class GAME extends AppCompatActivity {
@@ -51,12 +53,14 @@ public class GAME extends AppCompatActivity {
         setContentView(new GamePanel(this));                                                
     }
 }
-Example start game
+
+
+ Example start game
+
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/1.jpeg)
 
-
-
 Можно изменить уровень сложности
+
 ## [PLAYERS.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/PLAYERS.java "PLAYERS.java")
 
     Button USER;
