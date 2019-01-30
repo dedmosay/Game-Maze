@@ -132,3 +132,16 @@
 
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/2.jpeg)
 
+
+На данный момент планируется работа с сервером (уже реализовано - идет доработка с графикой)
+Вы могли заметить кнопки OPEN | SEND | CLOSE
+Предназначены для открытия потока (связь с сервером)
+Отправкой данных на сервер (данные - лучшие результаты)
+Закрыть соединение
+
+        mButtonOpen = (Button) findViewById(R.id.button_open_connection);
+        mButtonSend = (Button) findViewById(R.id.button_send_connection);
+        mButtonClose = (Button) findViewById(R.id.button_close_connection);
+
+
+# [Menu.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/Menu.java "Menu.java")
