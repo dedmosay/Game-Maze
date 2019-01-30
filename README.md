@@ -40,7 +40,6 @@
 
 ## [GAME.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/GAME.java "GAME.java")
 
-public class GAME extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {                                            
         super.onCreate(savedInstanceState);
@@ -52,8 +51,6 @@ public class GAME extends AppCompatActivity {
         Constants.SCREEN_HEIGHT = dm.heightPixels;                                          
         setContentView(new GamePanel(this));                                                
     }
-}
-
 
  Example start game
 
