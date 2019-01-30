@@ -33,6 +33,28 @@
     }
 
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/4.jpeg)
+
+
+## [GAME.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/GAME.java "GAME.java ")
+
+public class GAME extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {                                            
+        super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN); 
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);                                         
+
+        DisplayMetrics dm = new DisplayMetrics();                                     
+        getWindowManager().getDefaultDisplay().getMetrics(dm);                        
+        Constants.SCREEN_WIDTH = dm.widthPixels;                                          
+        Constants.SCREEN_HEIGHT = dm.heightPixels;                                          
+
+        setContentView(new GamePanel(this));                                                
+    }
+}
+
+
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/1.jpeg)
 
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/3.jpeg)
