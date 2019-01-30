@@ -85,6 +85,44 @@
 
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/2.jpeg)
 
+Можно изменить уровень сложности
+
+## [RECORDS.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/RECORDS.java "PLAYERS.java")
+
+        LevelUserScore.ResultUser OutResult = new LevelUserScore.ResultUser();
+        LevelNormalScore.ResultNormal NormalOutResult = new LevelNormalScore.ResultNormal();
+        LevelHardScore.ResultHard HardOutResult = new LevelHardScore.ResultHard();
+
+        int readUser =Integer.parseInt(user);
+        int readNorm =Integer.parseInt(norm);
+        int readHard =Integer.parseInt(hard);
+
+        if (readUser < OutResult.dataScoreUser){
+            int updIntValue = OutResult.dataScoreUser;
+            updValue = Integer.toString(updIntValue);
+            updId = "1";
+            user = updValue;
+            updUsing();
+            readTable();
+        }
+        if (readNorm < NormalOutResult.dataScoreNormal) {
+            int updIntValue = NormalOutResult.dataScoreNormal;
+            updValue = Integer.toString(updIntValue);
+            updId = "2";
+            String norm = updValue;
+            updUsing();
+            readTable();
+        }
+        if (readHard  < HardOutResult.dataScoreHard){
+            int updIntValue = HardOutResult.dataScoreHard;
+            updValue = Integer.toString(updIntValue);
+            updId = "3";
+            String hard = updValue;
+            updUsing();
+            readTable();
+        }
+    }
+
 Пример запуска RECORDS
 
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/3.jpeg)
