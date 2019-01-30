@@ -87,7 +87,7 @@
 
 Можно изменить уровень сложности в класс DBH (данные сохраняются в mySQL)
 В предыдущем варианте данные сохранялись в файлы в класс RECORDS.java
-## [DBH.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/DBH.java"DBH.java")
+## [DBH.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/DBH.java "DBH.java")
 
         LevelUserScore.ResultUser OutResult = new LevelUserScore.ResultUser();
         LevelNormalScore.ResultNormal NormalOutResult = new LevelNormalScore.ResultNormal();
