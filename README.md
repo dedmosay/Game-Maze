@@ -1,7 +1,7 @@
-# Android-Game
+## Android-Game
  Начало игры при запуске приложения Maze
 
-## [Menu.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/Menu.java "Menu.java ")
+### [Menu.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/Menu.java "Menu.java ")
 
     @Override
     public void onClick(View view) {
@@ -38,7 +38,7 @@
 
 Если выбрать кнопку пункт меню НАЧАТЬ ИГРУ - запуститься класс GAME
 
-## [GAME.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/GAME.java "GAME.java")
+### [GAME.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/GAME.java "GAME.java")
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {                                            
@@ -60,7 +60,7 @@
 
 Для того чтобы узнать лучшие результаты, данные можно увидеть в классе DBH (данные сохраняются в mySQL)
 В предыдущем варианте данные сохранялись в файлы в класс RECORDS.java
-## [DBH.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/DBH.java "DBH.java")
+### [DBH.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/DBH.java "DBH.java")
 
         LevelUserScore.ResultUser OutResult = new LevelUserScore.ResultUser();
         LevelNormalScore.ResultNormal NormalOutResult = new LevelNormalScore.ResultNormal();
@@ -105,7 +105,7 @@
 
 Можно изменить уровень сложности
 
-## [PLAYERS.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/PLAYERS.java "PLAYERS.java")
+### [PLAYERS.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/PLAYERS.java "PLAYERS.java")
 
     Button USER;
     Button NORMAL;
@@ -139,9 +139,11 @@
 Отправкой данных на сервер (данные - лучшие результаты)
 Закрыть соединение
 
+#### [Menu.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/Menu.java "Menu.java")
+
         mButtonOpen = (Button) findViewById(R.id.button_open_connection);
         mButtonSend = (Button) findViewById(R.id.button_send_connection);
         mButtonClose = (Button) findViewById(R.id.button_close_connection);
 
 
-#### [Menu.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/Menu.java "Menu.java")
+
