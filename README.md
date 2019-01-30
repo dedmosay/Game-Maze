@@ -32,7 +32,7 @@
         }
     }
     
-  Example menu
+Пример запуска Menu
 
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/4.jpeg)
 
@@ -52,7 +52,7 @@
         setContentView(new GamePanel(this));                                                
     }
 
- Example start game
+Пример запуска GAME
 
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/1.jpeg)
 
@@ -71,8 +71,7 @@
     final String FILE_LEVEL = "LevelMaze";
     String levelMaze;
     BufferedReader reader = null;
-
-
+    
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,6 +81,10 @@
         NORMAL = (Button) findViewById(R.id.Id_Normal);
         HARD = (Button) findViewById(R.id.Id_Hard);
 
-![](https://github.com/ilinoa/Android-Game/blob/master/image/3.jpeg)
+Пример запуска PLAYERS
 
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/2.jpeg)
+
+Пример запуска RECORDS
+
+![](https://github.com/ilinoa/Android-Game/blob/master/image/3.jpeg)
