@@ -1,6 +1,6 @@
 # Android-Game
 
-#### (https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/Menu.java "Menu.java ")
+#### [Menu.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/Menu.java "Menu.java ")
 
     @Override
     public void onClick(View view) {
