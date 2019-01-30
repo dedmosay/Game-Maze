@@ -35,25 +35,16 @@ public class Menu extends AppCompatActivity implements View.OnClickListener {
 
     Button button;                                                                                  // создаем переменную класса кнопка
 
-
-
-//------OPEN-------------------------------------------
     private Button mButtonOpen = null;
     private Button mButtonSend = null;
     private Button mButtonClose = null;
     private LaptopServer mServer = null;
-//------END--------------------------------------------
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-
-
-//------OPEN-------------------------------------------
         mButtonOpen = (Button) findViewById(R.id.button_open_connection);
         mButtonSend = (Button) findViewById(R.id.button_send_connection);
         mButtonClose = (Button) findViewById(R.id.button_close_connection);
@@ -74,10 +65,8 @@ public class Menu extends AppCompatActivity implements View.OnClickListener {
                         try {
                             mServer.openConnection();
  /*
- устанавливаем активные кнопки для отправки данных
- и закрытия соедиения. Все данные по обновлению интерфеса должны
- обрабатывается в Ui потоке, а так как мы сейчас находимся в
- отдельном потоке, нам необходимо вызвать метод runOnUiThread()
+ устанавливаем активные кнопки для отправки данных и закрытия соедиения. Все данные по обновлению интерфеса должны
+ обрабатывается в Ui потоке, а так как мы сейчас находимся в отдельном потоке, нам необходимо вызвать метод runOnUiThread()
  */
                             runOnUiThread(new Runnable() {
                                 @Override
@@ -94,7 +83,6 @@ public class Menu extends AppCompatActivity implements View.OnClickListener {
                 }).start();
             }
         });
-
 
         mButtonSend.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -131,19 +119,14 @@ public class Menu extends AppCompatActivity implements View.OnClickListener {
                 mButtonClose.setEnabled(false);
             }
         });
-//------END-------------------------------------------
 
+        button = (Button) findViewById(R.id.Id_start);                                                  // Нахождение кнопки
+        button.setOnClickListener(this);                                                                // И присваем обратчик setOnClickListener
 
-        button = (Button) findViewById(R.id.Id_start);                                                 // Нахождение кнопки
-        button.setOnClickListener(this);                                                            // И присваем обратчик setOnClickListener
-
-//        button = (Button) findViewById(R.id.Id_records);                                                 // Нахождение кнопки
-//        button.setOnClickListener(this);
-
-        button = (Button) findViewById(R.id.Id_level);                                                 // Нахождение кнопки
+        button = (Button) findViewById(R.id.Id_level);                                                  // Нахождение кнопки
         button.setOnClickListener(this);
 
-        button = (Button) findViewById(R.id.Id_records_DB);                                                 // Нахождение кнопки
+        button = (Button) findViewById(R.id.Id_records_DB);                                             // Нахождение кнопки
         button.setOnClickListener(this);
 
         Log.d(TAG, "открыт class Menu");
@@ -183,7 +166,7 @@ public class Menu extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View view) {
 
         Intent intent;
-        switch (view.getId()) {                                                                     //getBottom
+        switch (view.getId()) {                                                                     
             case R.id.Id_start:
                 levelReadFile();
                 ObstacleManager.ChoiceLevel Level = new ObstacleManager.ChoiceLevel();
@@ -193,17 +176,13 @@ public class Menu extends AppCompatActivity implements View.OnClickListener {
                 startActivity(intent);
                 Log.d(TAG, "open START - class GAME");
                 break;
-/*            case R.id.Id_records:
-                intent = new Intent(this, RECORDS.class);
-                startActivity(intent);
-                Log.d(TAG, "open RECORDS - class RECORDS");
-                break;
-*/
+
             case R.id.Id_level:
                 intent = new Intent(this, PLAYERS.class);
                 startActivity(intent);
                 Log.d(TAG, "open PLAYERS - class PLAYERS");
                 break;
+                
             case R.id.Id_records_DB:
                 intent = new Intent(this, DBH.class);
                 startActivity(intent);
