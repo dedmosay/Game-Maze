@@ -1,5 +1,6 @@
 # Android-Game
-
+## Menu
+![](https://github.com/ilinoa/Android-Game/blob/master/image/2.jpeg)
 #### [Menu.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/Menu.java "Menu.java ")
 
     @Override
@@ -35,6 +36,6 @@
 Image:
 
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/1.jpeg)
-![](https://github.com/ilinoa/Android-Game/blob/master/image/2.jpeg)
+
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/3.jpeg)
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/4.jpeg)
