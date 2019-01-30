@@ -144,4 +144,4 @@
         mButtonClose = (Button) findViewById(R.id.button_close_connection);
 
 
-# [Menu.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/Menu.java "Menu.java")
+#### [Menu.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/Menu.java "Menu.java")
