@@ -36,7 +36,7 @@
 
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/4.jpeg)
 
-Если выбрать кнопку пункт меню НАЧАТЬ ИГРУ - запуститься класс GAME
+НАЧАТЬ ИГРУ 
 
 ### [GAME.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/GAME.java "GAME.java")
 
@@ -58,8 +58,7 @@
 
 
 
-Для того чтобы узнать лучшие результаты, данные можно увидеть в классе DBH (данные сохраняются в mySQL)
-В предыдущем варианте данные сохранялись в файлы в класс RECORDS.java
+
 ### [DBH.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/DBH.java "DBH.java")
 
         LevelUserScore.ResultUser OutResult = new LevelUserScore.ResultUser();
@@ -96,7 +95,7 @@
         }
     }
 
-Пример запуска DBH - ЛУЧШИЕ РЕЗУЛЬТАТЫ
+ЛУЧШИЕ РЕЗУЛЬТАТЫ
 
 ![](https://github.com/ilinoa/Android-Game/blob/master/image/3.jpeg)
 
