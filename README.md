@@ -1,7 +1,7 @@
 ## Android-Game
  Начало игры при запуске приложения Maze
 
-### [Menu.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/Menu.java "Menu.java ")
+### Menu.java
 
     @Override
     public void onClick(View view) {
@@ -38,7 +38,7 @@
 
 НАЧАТЬ ИГРУ 
 
-### [GAME.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/GAME.java "GAME.java")
+### Game.java
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {                                            
@@ -59,7 +59,7 @@
 
 
 
-### [DBH.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/DBH.java "DBH.java")
+### Dbh.java
 
         LevelUserScore.ResultUser OutResult = new LevelUserScore.ResultUser();
         LevelNormalScore.ResultNormal NormalOutResult = new LevelNormalScore.ResultNormal();
@@ -104,7 +104,7 @@
 
 Можно изменить уровень сложности
 
-### [PLAYERS.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/PLAYERS.java "PLAYERS.java")
+### Players.java
 
     Button USER;
     Button NORMAL;
@@ -138,7 +138,7 @@
 ######  Отправкой данных на сервер (данные - лучшие результаты)
 ######  Закрыть соединение
 
-#### [Menu.java](https://github.com/ilinoa/Android-Game/blob/master/Maze/app/src/main/java/com/example/work/maze/Menu.java "Menu.java")
+#### Menu.java
 
         mButtonOpen = (Button) findViewById(R.id.button_open_connection);
         mButtonSend = (Button) findViewById(R.id.button_send_connection);
