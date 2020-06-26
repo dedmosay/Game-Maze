@@ -111,11 +111,6 @@
 
 
 
-#### Menu.java
-
-        mButtonOpen = (Button) findViewById(R.id.button_open_connection);
-        mButtonSend = (Button) findViewById(R.id.button_send_connection);
-        mButtonClose = (Button) findViewById(R.id.button_close_connection);
 
 
 
