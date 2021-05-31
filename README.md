@@ -1,4 +1,4 @@
-## Android-Game
+## Game-Maze
 Пример. Запуск приложения.
 
 ### Menu.java
